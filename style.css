@@ -1,0 +1,14 @@
+body{
+   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    background-color:#e6f9bc;
+    top: 0;
+    height: 70px;
+    color: white;
+  }
+
+  #cabecalho h1{
+    padding-top: 20px;
+  }

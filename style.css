@@ -1,14 +1,23 @@
 body{
-   background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color:#e6f9bc;
+    background-color: #b6d0a0;
+    position: fixed;
     top: 0;
-    height: 70px;
-    color: white;
+    left: 0;
+    right: 0;
+    height: 105px;
+    text-align: center;
   }
 
   #cabecalho h1{
-    padding-top: 20px;
+    color: white;
   }
+
+img{
+    padding-top: 90px;
+    width: 250px;
+    height: 250px;
+}

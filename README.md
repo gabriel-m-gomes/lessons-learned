@@ -62,7 +62,7 @@ O site está com os elementos posicionados e estilizados, além de conter a sem�
 ### Antes de inicializar a página na máquina local
 
 1. Clone o repositório
-  * `git clone git@github.com:THIAGOMARTINS367/Trybe-project-lessons-learned.git`
+  * `git clone git@github.com:gabriel-m-gomes/Trybe-project-lessons-learned.git`
   * Entre na pasta do repositório na sua máquina:
     * `cd Trybe-project-lessons-learned`
 
@@ -74,109 +74,7 @@ O site está com os elementos posicionados e estilizados, além de conter a sem�
 
 --- 
 
-### Instruções de desenvolvimento 
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-## Como desenvolver
-
-### Linter
-
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
-
-```bash
-npm run lint:styles
-```
-
-⚠ **NESTE PROJETO O STYLELINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠
-
-Após clonar o projeto, você deverá criar os arquivos **index.html** e **style.css** que conterão seu código HTML e CSS, respectivamente. Observe que seus arquivos **devem** possuir estes nomes para que seu projeto seja testado corretamente pelo avaliador automático.
-
-Você é livre para adicionar outros arquivos se julgar necessário.
-
-Lembre-se que sua página deverá conter semântica adequada e para isso verifique se sua página está aprovada no [CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/).
-
-
-### Avaliador automático
-
-* Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução de tela de `1366 x 768` (1366 pixels de largura por 768 pixels de altura).
-
-* ⚠️ Recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração da resolução. ⚠️
-
-* Atente-se para o tamanho das imagens que você utilizará neste projeto. **Não utilize imagens com um tamanho maior que _500Kb_.**
-
-* ⚠️ Utilize uma ferramenta [como esta](https://picresize.com/pt) para redimensionar as imagens. ⚠️
-
-* Caso a avaliação falhe com alguma mensagem de erro parecida com `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, provavelmente as imagens que você está utilizando estão muito grandes. Tente redimensiona-las para um tamanho menor.
-
-Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
-
-* Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
-
-* Na página que se abrirá, procure pela linha _**"Cypress evaluator step"**_ e clique nela;
-
-* Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
-
-* Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou procure as pessoas instrutoras.
-
-Para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
-
-```bash
-npm test
-```
-
-***ou***
-
-```bash
-npm run cypress:open
-```
-
-Após executar o comando acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (*project.spec.js*, ou *bonus.spec.js*), ou para executar todos os testes clique em *Run 2 integration specs*
-
-Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
-
-* Você pode fazer mais do que for pedido, mas nunca menos.
-
-* **Nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
-
----
-
 ## Requisitos
-
-### Dicas
-
-Para fazer este projeto você deverá atribuir a barra superior o `position: fixed;`.
-
-### Lista de requisitos
-
-⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
----
-
-### 👀Observações importantes:
-
-* Lembrem-se que como pessoas desenvolvedoras devemos fazer pesquisas e garimpar resultados para auxiliar no entendimento do assunto. Assim, para solucionar os requisitos do projeto é inevitável e estimulado que pesquisas sejam feitas nas mais variadas fontes (course, vídeos do course, google, youtube, etc) sempre tomando cuidado para utilizar fontes "confiáveis" nas pesquisas da Internet, como por exemplo:
-  
-  * [Javascript.com](http://javascript.com/)
-  
-  * [W3Schools](https://www.w3schools.com/js/default.asp)
-  
-  * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-  
-  * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
   
 
 ### 1. Adicione uma cor de fundo específica para a página
@@ -314,8 +212,3 @@ Adicione ao elemento posicionado no lado esquerdo a classe "lado-esquerdo" e ao 
 - Utilizar a classe "lado-direito"
 - Verificar se os elementos com as classes lado-direito e lado-esquerdo estão posicionados corretamente
 
----
-
-## Demonstração do Projeto
-
-### *Em produção*...

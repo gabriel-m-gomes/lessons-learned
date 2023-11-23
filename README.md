@@ -1,5 +1,5 @@
 <h1>Habilidades exigidas</h1>
-Utilização HTML para construir páginas WEB.
+<h2>Utilização HTML para construir páginas WEB.</h2>
 Utilize HTML semântico para tornar sua página mais acessível e melhor ranqueada.
 Utilização CSS para adicionar estilo e posicionar elementos.
 O que foi desenvolvido
